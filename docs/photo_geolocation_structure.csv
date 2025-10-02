@@ -1,0 +1,32 @@
+file_path,directory,filename,extension,size_bytes,lines_of_code,file_type,description
+Dockerfile,.,Dockerfile,no_ext,941,40,Other,Multi-stage Docker build with security hardening
+Makefile,.,Makefile,no_ext,1428,63,Other,Development automation and deployment commands
+README.md,.,README.md,.md,17833,660,Documentation,Comprehensive project documentation and setup guide
+app/__init__.py,app,__init__.py,.py,0,0,Python,Project file: app/__init__.py
+app/api/__init__.py,app/api,__init__.py,.py,0,0,Python,Project file: app/api/__init__.py
+app/api/endpoints.py,app/api,endpoints.py,.py,12703,350,Python,FastAPI endpoints with comprehensive error handling
+app/core/__init__.py,app/core,__init__.py,.py,0,0,Python,Project file: app/core/__init__.py
+app/core/config.py,app/core,config.py,.py,1586,52,Python,Pydantic settings with environment variable support
+app/core/database.py,app/core,database.py,.py,1229,47,Python,SQLAlchemy async database setup and session management
+app/main.py,app,main.py,.py,3225,120,Python,FastAPI application entry point with lifespan management
+app/models/__init__.py,app/models,__init__.py,.py,0,0,Python,Project file: app/models/__init__.py
+app/models/database.py,app/models,database.py,.py,3108,67,Python,SQLAlchemy ORM models for data persistence
+app/models/schemas.py,app/models,schemas.py,.py,2485,90,Python,Pydantic models for request/response validation
+app/services/__init__.py,app/services,__init__.py,.py,0,0,Python,Project file: app/services/__init__.py
+app/services/geocoding_service.py,app/services,geocoding_service.py,.py,12927,322,Python,Multi-provider geocoding with fallbacks
+app/services/geolocation_service.py,app/services,geolocation_service.py,.py,12130,295,Python,Main geolocation orchestration service
+app/services/vision_service.py,app/services,vision_service.py,.py,5040,139,Python,Google Cloud Vision API integration
+app/utils/__init__.py,app/utils,__init__.py,.py,0,0,Python,Project file: app/utils/__init__.py
+app/utils/cache.py,app/utils,cache.py,.py,3856,123,Python,Redis and memory caching with TTL support
+app/utils/geo_utils.py,app/utils,geo_utils.py,.py,5115,150,Python,Geographic calculations and coordinate utilities
+app/utils/image_processing.py,app/utils,image_processing.py,.py,6027,172,Python,PIL-based image processing and EXIF extraction
+docker/nginx.conf,docker,nginx.conf,.conf,729,32,Configuration,Nginx reverse proxy configuration
+docker-compose.yml,.,docker-compose.yml,.yml,1191,61,Configuration,Multi-container setup with PostgreSQL and Redis
+pyproject.toml,.,pyproject.toml,.toml,1596,64,Configuration,Poetry configuration with dependencies and tools
+scripts/setup.py,scripts,setup.py,.py,3236,123,Python,Automated project setup and dependency installation
+tests/__init__.py,tests,__init__.py,.py,0,0,Python,Project file: tests/__init__.py
+tests/conftest.py,tests,conftest.py,.py,1790,69,Python,Pytest configuration with async database setup
+tests/integration/__init__.py,tests/integration,__init__.py,.py,0,0,Python,Project file: tests/integration/__init__.py
+tests/integration/test_api.py,tests/integration,test_api.py,.py,4809,139,Python,Integration tests for API endpoints
+tests/unit/__init__.py,tests/unit,__init__.py,.py,0,0,Python,Project file: tests/unit/__init__.py
+tests/unit/test_image_processing.py,tests/unit,test_image_processing.py,.py,2400,62,Python,Unit tests for image processing utilities

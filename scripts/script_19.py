@@ -1,4 +1,5 @@
-# 🌍 Photo Geolocation Service
+# README.md - Полная документация проекта
+readme_content = '''# 🌍 Photo Geolocation Service
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
@@ -226,9 +227,9 @@ results = response.json()
 
 ```bash
 # Single upload
-curl -X POST http://localhost:8000/upload \
-  -F "file=@photo.jpg" \
-  -F "mode=standard" \
+curl -X POST http://localhost:8000/upload \\
+  -F "file=@photo.jpg" \\
+  -F "mode=standard" \\
   -F "min_confidence=0.7"
 
 # Health check
@@ -658,3 +659,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for the geolocation community**
 
 *Empowering developers to build location-aware applications with AI-powered photo analysis.*
+'''
+
+with open("photo_geolocation/README.md", "w") as f:
+    f.write(readme_content)
+
+print("✅ Полная документация README.md создана")
